@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<res>
+<diy>     
+	<jam><id>1</id><name>cherry</name><price>1</price></jam>
+	<jam><id>2</id><name>strawberry</name><price>2</price></jam>
+	<jam><id>3</id><name>raspberry</name><price>3</price></jam>
+	<jam><id>4</id><name>blueberry</name><price>4</price></jam> 
+	
+	<fruit><id>1</id><name>yellowpeach</name><price>1</price></fruit> 
+	<fruit><id>2</id><name>strawberry</name><price>2</price></fruit>
+	<fruit><id>3</id><name>klwi</name><price>3</price></fruit>
+	<fruit><id>4</id><name>orange</name><price>4</price></fruit>
+	
+	<topping><id>1</id><name>ip</name><price>1</price></topping>
+	<topping><id>2</id><name>bc</name><price>2</price></topping>
+	
+	<candle>
+	    <id>1</id>
+	    <name>princess birthday candle, 2in 24ct</name>
+	    <price>2</price>
+	    <icon>http://10.0.2.2/mad/candle1</icon>	    
+	</candle>
+	<candle>
+	    <id>2</id>
+	    <name>blue and stripe birthday candles, 2in 24ct</name>
+	    <price>1</price>
+	    <icon>http://10.0.2.2/mad/candle2</icon>	    
+	</candle>
+	<candle>
+	    <id>3</id>
+	    <name>blue Pink and white spiral birthday candles, 2in 24ct</name>
+	    <price>1</price>
+	    <icon>http://10.0.2.2/mad/candle3</icon>	    
+	</candle>
+	<candle>
+	    <id>4</id>
+	    <name>gold birthday candles, 2in 10ct</name>
+	    <price>1</price>
+	    <icon>http://10.0.2.2/mad/candle4</icon>	    
+	</candle>
+	<candle>
+	    <id>5</id>
+	    <name>pink spiral birthday candles with stars, 3in 4ct</name>
+	    <price>1</price>
+	    <icon>http://10.0.2.2/mad/candle5</icon>	    
+	</candle>
+	<candle>
+	    <id>6</id>
+	    <name>coil and stripe birthday candles, 3in 4ct</name>
+	    <price>1</price>
+	    <icon>http://10.0.2.2/mad/candle6</icon>	    
+	</candle>
+	<candle>
+	    <id>7</id>
+	    <name>happy birthday candles, 13ct</name>
+	    <price>1</price>
+	    <icon>http://10.0.2.2/mad/candle7</icon>	    
+	</candle>
+	
+	<box>
+	    <id>1</id>
+	    <name>Flowers</name>
+	    <price>2</price>
+	    <icon>http://10.0.2.2/mad/box1</icon> 
+	</box>
+	<box>
+	    <id>2</id>
+	    <name>Smart Foliage</name>
+	    <price>2</price>
+	    <icon>http://10.0.2.2/mad/box2</icon> 
+	</box>
+	<box>
+	    <id>3</id>
+	    <name>Tellow Leaves</name>
+	    <price>2</price>
+	    <icon>http://10.0.2.2/mad/box3</icon> 
+	</box>
+	<box>
+	    <id>4</id>
+	    <name>Happy Birthday</name>
+	    <price>2</price>
+	    <icon>http://10.0.2.2/mad/box4</icon> 
+	</box>
+	<box>
+	    <id>5</id>
+	    <name>Santa Claus</name>
+	    <price>2</price>
+	    <icon>http://10.0.2.2/mad/box5</icon> 
+	</box>
+</diy>
+
+<cakes>
+    <cake>
+    		<id>1</id>
+        <name>Billy Grace</name>
+        <size>2</size>
+        <bottomprice>20</bottomprice>
+        <icon>/</icon>
+        <jam.id>1</jam.id>
+        <fruit.id>1</fruit.id>
+        <topping.id>1</topping.id>
+        <candle.id>1</candle.id>
+        <box.id>1</box.id>
+    </cake>
+    <cake>
+    		<id>2</id>
+        <name>Cubes of Fruit</name>
+        <size>2</size>
+        <bottomprice>20</bottomprice>
+        <icon>/</icon>
+        <jam.id>2</jam.id>
+        <fruit.id>2</fruit.id>
+        <topping.id>2</topping.id>
+        <candle.id>2</candle.id>
+        <box.id>2</box.id>
+    </cake>
+    <cake>
+    		    <id>3</id>
+        <name>Cygnet</name>
+        <size>2</size>
+        <bottomprice>20</bottomprice>        
+        <icon>/</icon>
+        <jam.id>3</jam.id>
+        <fruit.id>3</fruit.id>
+        <topping.id>1</topping.id>
+        <candle.id>3</candle.id>
+        <box.id>3</box.id>
+    </cake>
+    <cake>
+    		    <id>4</id>
+        <name>Hazelnut Chocolate</name>
+        <size>2</size>
+        <bottomprice>20</bottomprice>        
+        <icon>/</icon>
+        <jam.id>4</jam.id>
+        <fruit.id>4</fruit.id>
+        <topping.id>2</topping.id>
+        <candle.id>4</candle.id>
+        <box.id>4</box.id>
+    </cake>
+</cakes>
+</res>

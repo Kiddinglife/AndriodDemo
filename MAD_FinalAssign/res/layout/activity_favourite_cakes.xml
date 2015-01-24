@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bakery_activity_bgcolor"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fv_cakes__title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/fv_cakes__title"
+        android:textColor="@drawable/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/send_cakes_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_view_shape"
+        android:contentDescription="@string/none"
+        android:gravity="center"
+        android:onClick="sendCakesBtnClicked"
+        android:text="@string/send_cakes_button"
+        android:textColor="@drawable/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/cancel_conn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_view_shape"
+        android:contentDescription="@string/none"
+        android:gravity="center"
+        android:onClick="CancelConnectionBtnClicked"
+        android:text="@string/cancel_conn_button"
+        android:textColor="@drawable/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawSelectorOnTop="true"
+        android:fadingEdge="none"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:scrollingCache="false" />
+
+</LinearLayout>

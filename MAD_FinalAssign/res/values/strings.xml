@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MAD_FinalAssign</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- my service class -->
+    <!-- the MSG will be used as key for the order sent to my service -->
+    <string name="msg">MSG</string>
+    <!-- the url to get the cakes.xml from server -->
+    <string name="url">http://www-student.it.uts.edu.au/~mezhang/mad/cakes_local.xml</string>
+    <!--
+        <string name="url">http://192.168.1.105/mad/cakes_local.xml</string>
+         none value in every imageview tage to avoid warning http://10.0.2.2:80/mad/cakes.xml 
+        <string name="url">http://192.168.1.105/mad/cakes.xml</string>
+    -->
+    <string name="none">""</string>
+
+    <!-- rgb colors -->
+    <drawable name="bakery_activity_bgcolor">#F08080</drawable>
+    <drawable name="bakery_activity_cake_list_button">#F5F5DC</drawable>
+    <drawable name="cake_grid_activity_bgcolor">#FFB6C1</drawable>
+    <drawable name="cake_grid_item_bgcolor">#EEE8AA</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="gray">#FAF0E6</drawable>
+    <drawable name="black">#000000</drawable>
+
+    <!-- activities nameS -->
+    <string name="cake_list">Cake List</string>
+    <string name="selected_cake">Selected Cake</string>
+    <string name="bakery">Billy Bakery</string>
+    <string name="payment">Payment</string>
+    <string name="delivery_title">Delivery</string>
+    <string name="end_pay">Success to Pay !</string>
+
+    <!-- bakery activity -->
+    <string name="bakery_name">Billy Bakery</string>
+    <string name="trading_hour">Trade Hours: 9:00 am - 6:00pm</string>
+    <string name="location">Location: 123 cake St. chatswoods Sydney NSW 2001 </string>
+    <string name="view_cake_list">Cake List</string>
+    <string name="view_cake_records">Cake Records</string>
+    <string name="view_cake_fav">Favourite Cakes</string>
+    <string name="cakeListBtnClicked">cakeListBtnClicked</string>
+    <string name="cakeRecordsBtnClicked">cakeRecordsBtnClicked</string>
+    <string name="cakeFavBtnClicked">cakeFavBtnClicked</string>
+
+    <!-- selected cake  activity -->
+    <string name="cake_name">Cake Name: </string>
+    <string name="cake_jam">Jam Type: </string>
+    <string name="cake_fruit">Fruit Type: </string>
+    <string name="cake_topping">Topping Type: </string>
+    <string name="cake_size">Size (inch): </string>
+    <string name="buy_cake">Buy Now !</string>
+    <string name="diy_cake">DIY Cake</string>
+    <string name="buy_cake_button_clicked">buyCakeButtClicked</string>
+    <string name="diy_cake_button_clicked">diyCakeButtClicked</string>
+
+    <!-- DeliveryWay Activity -->
+    <string name="pay_now">Pay Now</string>
+    <string name="pay_now_button_clicked">payNoWbuttonClicked</string>
+    <string name="delivery">Request for Delivery Service</string>
+    <string name="take_away">Take Away</string>
+    <string name="addr">Address:</string>
+    <string name="receiveer_name">Receiver Full Name:</string>
+    <string name="pcode">Post Code:</string>
+    <string name="contact_num">Contact Number:</string>
+
+    <!-- payment activity -->
+    <string name="card_type">Card Type:</string>
+    <string name="ct_1">Master</string>
+    <string name="ct_2">USA Express</string>
+    <string name="ct_3">Visa</string>
+    <string name="card_sig">Signature on Card</string>
+    <string name="valid_date">Valid Date</string>
+    <string name="month">(Month)</string>
+    <string name="year">(year)</string>
+    <string name="cvv">CVV</string>
+    <string name="cvv_location">(located on the back of the card)</string>
+    <string name="con_pay">Confirm Payment"</string>
+    <string name="confirm_button_clicked">confirmBtnClicked</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="valid_date_button_clicked">dateBtnClicked</string>
+
+    <!-- end_pay activity -->
+    <string name="you_select">You Selected:</string>
+    <string name="cake_candle">Candle:</string>
+    <string name="cake_box">Box Style:</string>
+    <string name="diy_no">DIY: Default</string>
+    <string name="diy_yes">DIY with:</string>
+    <string name="cake_price">Cake Price:</string>
+    <string name="cake_acc">Accessories Price:</string>
+    <string name="con_order">Confirm Order</string>
+    <string name="acc_buy">Buy Accessories</string>
+
+    <!-- SuccessPayMessage actibity -->
+    <string name="success_pay_msg">Congraduations! Your order has been completed!</string>
+    <string name="back_bakery">Back To Home</string>
+
+    <!-- Acc activity -->
+    <string name="candles">Candles</string>
+    <string name="box">Boxes</string>
+    <string name="BtnClicked">BtnClicked</string>
+    <string name="ImgBtnClicked">imgBtnClicked</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelBtnClick">imgCancelBtnClick</string>
+    <string name="checked">Added!</string>
+    <string name="unchecked">Canceled!</string>
+    <string name="back">Go back!</string>
+    <string name="backBtnClicked">backBtnClicked</string>
+
+    <!-- diy activity -->
+    <string name="csize">Cake Size:</string>
+    <string name="cjam">Cake Jam:</string>
+    <string name="cfruit">Cake Fruit:</string>
+    <string name="ctopping">Cake Topping:</string>
+
+    <string-array name="csize_arr">
+        <item>1.5 </item>
+        <item>2 </item>
+        <item>3.5 </item>
+        <item>5.5 </item>
+        <item>7 </item>
+    </string-array>
+    <string-array name="cjam_arr">
+        <item>cherry</item>
+        <item>strawberry</item>
+        <item>raspberry</item>
+        <item>blueberry</item>
+    </string-array>
+    <string-array name="cfruit_arr">
+        <item>yellow peach</item>
+        <item>strawberry</item>
+        <item>kiwi</item>
+        <item>orange</item>
+    </string-array>
+    <string-array name="ctopping_arr">
+        <item>ip</item>
+        <item>bc</item>
+    </string-array>
+
+    <!-- CakeRecords activity -->
+    <!-- <string name="cake_check">http://10.0.2.2:80/mad/test.php</string> -->
+    <string name="cake_check">http://www-student.it.uts.edu.au/~mezhang/mad/test.php</string>
+    <string name="cake_records_title">Cake Records</string>
+    <string name="buy_date">Purchasing Date:</string>
+    <string name="cake_total_price">Total Price:</string>
+    <string name="cake_acc_price">Accessories Price:</string>
+    <string name="cake_status">Cake Status:</string>
+    <string name="cake_uncooked">uncooked now</string>
+    <string name="to_who">Cake for:</string>
+    <string name="to_who_addr">Delivery Addr:</string>
+    <string name="choice">You can</string>
+    <string name="save_as_fav">save as my favourite </string>
+    <string name="delete">delete this order</string>
+
+    <!-- fv cakes activity -->
+    <string name="fv_cakes__title">My Favourite Cakes List</string>
+    <string name="fv_cake_name">Cake Name:</string>
+    <string name="fv_fruit_type">Fruit Type:</string>
+    <string name="fv_jam_type">Jam Type:</string>
+    <string name="fv_topping_type">Topping Type:</string>
+    <string name="fv_cake_size">Cake Size:</string>
+    <string name="fv_cake_price">Cake Price:</string>
+    <string name="fv_cake_acc_price">Accessories Price:</string>
+    <string name="listen">Listenning.....</string>
+    <string name="connecting">Connecting with</string>
+    <string name="connected">Connected with</string>
+    <string name="disconnected">Disconnected</string>
+    <!-- remote devices activity -->
+    <string name="found_devices">Devices Found</string>
+    <string name="none_found">Not Found Any Device!</string>
+    <string name="scan">Scanning</string>
+    <string name="open_blue">Enable Sever</string>
+    <string name="share_cake">Enable Client</string>
+    <string name="send_cakes_button">Send Selected Cakes</string>
+    <string name="cancel_conn_button">Cancel Connection</string>
+
+</resources>

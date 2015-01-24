@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mad_finalassign"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cupcake.view.Bakery"
+            android:label="@string/bakery" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.cupcake.logic.MyService" >
+        </service>
+
+        <activity
+            android:name="com.cupcake.view.CakeAssortment"
+            android:label="@string/cake_list" >
+        </activity>
+        <activity
+            android:name="com.cupcake.view.SelectedCake"
+            android:label="@string/selected_cake" >
+        </activity>
+        <activity
+            android:name="com.cupcake.view.Payment"
+            android:label="@string/payment" >
+        </activity>
+        <activity
+            android:name="com.cupcake.view.DeliveryWay"
+            android:label="@string/delivery_title" >
+        </activity>
+        <activity
+            android:name="com.cupcake.view.EndPayment"
+            android:label="@string/end_pay" >
+        </activity>
+        <activity
+            android:name="com.cupcake.view.SuccessPayMessage"
+            android:label="@string/cake_list" >
+        </activity>
+        <activity
+            android:name="com.cupcake.view.Accessories"
+            android:label="@string/cake_list" >
+        </activity>
+        <activity
+            android:name="com.cupcake.view.DiyCake"
+            android:label="@string/cake_list" >
+        </activity>
+        <activity
+            android:name="com.cupcake.view.CakeRecords"
+            android:label="@string/cake_list" >
+        </activity>
+        <activity
+            android:name="com.cupcake.view.FavouriteCakes"
+            android:label="@string/cake_list" >
+        </activity>
+        <activity
+            android:name="com.cupcake.view.BluetoothRemoteDevicesList"
+            android:label="@string/cake_list" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/text_view_shape"
+    android:padding="10dp"
+    android:stretchColumns="1" >
+
+    <TableRow android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:id="@+id/date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buy_date"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cake_name"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/cake_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to_who_addr"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/to_who_addr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cake_acc_price"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/cake_acc_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cake_total_price"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/cake_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cake_status"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/cake_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/cake_uncooked"
+            android:textIsSelectable="FALSE"
+            android:textSize="13sp" />
+    </TableRow>
+
+</TableLayout>

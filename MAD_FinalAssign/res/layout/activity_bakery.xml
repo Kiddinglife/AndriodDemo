@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bakery_activity_bgcolor"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dip"
+        android:text="@string/bakery_name"
+        android:textIsSelectable="FALSE"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingBottom="20dip"
+        android:text="@string/trading_hour"
+        android:textIsSelectable="FALSE"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingBottom="20dip"
+        android:text="@string/location"
+        android:textIsSelectable="FALSE"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="128dip"
+        android:layout_height="128dip"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/none"
+        android:paddingBottom="20dip"
+        android:src="@drawable/bg_bakery" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bakery_activity_bgcolor"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cake_list_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="50"
+            android:background="@drawable/btn_view_shape"
+            android:contentDescription="@string/none"
+            android:onClick="@string/cakeListBtnClicked"
+            android:text="@string/view_cake_list"
+            android:textColor="@drawable/white" />
+
+        <Button
+            android:id="@+id/cake_records_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="50"
+            android:background="@drawable/btn_view_shape"
+            android:contentDescription="@string/none"
+            android:onClick="@string/cakeRecordsBtnClicked"
+            android:text="@string/view_cake_records"
+            android:textColor="@drawable/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cake_fav_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_view_shape"
+        android:contentDescription="@string/none"
+        android:onClick="@string/cakeFavBtnClicked"
+        android:text="@string/view_cake_fav"
+        android:textColor="@drawable/white" />
+
+</LinearLayout>
